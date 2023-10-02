@@ -10,9 +10,30 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		server.js = server.js
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "public", "public", "{8FC98E2E-CEA8-4A05-9A49-D986E173A158}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{4611C90E-66F1-4C3E-8DB8-297CDBE62A34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "views", "views", "{AB9D2EA4-C4FD-4FF5-B9F8-FECEE316A016}"
+	ProjectSection(SolutionItems) = preProject
+		about.html = about.html
+		home.html = home.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{89AECAA1-72F8-4365-8CEE-C3303287C909}"
+	ProjectSection(SolutionItems) = preProject
+		site.css = site.css
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8FC98E2E-CEA8-4A05-9A49-D986E173A158} = {B3D55A8F-94BB-4827-9305-8C1F465E0406}
+		{4611C90E-66F1-4C3E-8DB8-297CDBE62A34} = {B3D55A8F-94BB-4827-9305-8C1F465E0406}
+		{AB9D2EA4-C4FD-4FF5-B9F8-FECEE316A016} = {B3D55A8F-94BB-4827-9305-8C1F465E0406}
+		{89AECAA1-72F8-4365-8CEE-C3303287C909} = {8FC98E2E-CEA8-4A05-9A49-D986E173A158}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {034272F1-5465-47D9-8BA6-F21FD6007B04}
